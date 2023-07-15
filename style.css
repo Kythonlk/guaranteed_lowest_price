@@ -1,0 +1,61 @@
+
+.hot-tag {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 4px;
+  }
+  .hot-div{
+    z-index: 99;
+    position: absolute;
+    margin-left: 5px;
+    margin: 5px 0 -20px 5px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+      padding :10px;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .row {
+    margin-bottom: 30px;
+  }
+  
+  .glp-tag-spp{
+    height: 25px;
+    background-color: #232f3e;
+    border-color: #232F3E;
+    display: flex;
+    max-width: 225px;
+    padding-left: 10px;
+    color: #fff;
+  }
+
+  .hot-div{
+    z-index: 99;
+    position: absolute;
+    margin-left: 5px;
+    margin: 5px 0 -20px 5px;
+  }
+
+  .pr-title{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.24;
+    height: 34.72px;
+    margin-bottom: 8px;
+    overflow: hidden;
+    color: #0062bd;
+  }
+
+  .card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+  }
