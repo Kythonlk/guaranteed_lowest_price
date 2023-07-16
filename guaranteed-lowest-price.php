@@ -1,9 +1,10 @@
 <?php
 /*
-Plugin Name: Guaranteed Lowest Price
-Description: Displays a list of products with the "Guaranteed Lowest Price" checkbox checked.
-Version: 1.0
-Author: kythonlk
+ *Plugin Name: Guaranteed Lowest Price
+ *Description: Displays a list of products with the "Guaranteed Lowest Price" checkbox checked.
+ *Version: 1.0
+ *Author: kythonlk
+ *Author URI: https://kythonlk.com
 */
 
 // Enqueue custom JavaScript and CSS files
