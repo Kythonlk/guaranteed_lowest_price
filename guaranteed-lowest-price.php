@@ -52,7 +52,7 @@ function display_guaranteed_lowest_price_tag()
     $value = get_post_meta($product->get_id(), '_guaranteed_lowest_price', true);
 
     if ($value === 'yes') {
-        echo '<div><a href="https://dhabione.com/guaranteed-lowest-price" target="_blank"><span class="glp-tag-spp">Guaranteed lowest price in UAE.</span></a></div>';
+        echo '<div><a href="/guaranteed-lowest-price" target="_blank"><span class="glp-tag-spp">Guaranteed lowest price in UAE.</span></a></div>';
     }
 }
 add_action('woocommerce_single_product_summary', 'display_guaranteed_lowest_price_tag', 6);
